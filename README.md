@@ -16,6 +16,16 @@
 meteor.PRIMARY> db.tasks.insert({ text: "Hello world!", createdAt: new Date() });
 ```
 
+#### https://www.meteor.com/tutorials/react/running-on-mobile
+```
+# meteor install-sdk ios
+# meteor add-platform ios
+# meteor run ios
+# meteor install-sdk android
+# meteor add-platform android
+# meteor run android
+```
+
 #### Finaly to run
 ```
 # meteor
