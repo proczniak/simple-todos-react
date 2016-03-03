@@ -10,6 +10,12 @@
 # meteor add react
 ```
 
+#### https://www.meteor.com/tutorials/react/collections
+```
+# meteor mongo
+meteor.PRIMARY> db.tasks.insert({ text: "Hello world!", createdAt: new Date() });
+```
+
 #### Finaly to run
 ```
 # meteor
