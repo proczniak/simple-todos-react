@@ -26,6 +26,11 @@ meteor.PRIMARY> db.tasks.insert({ text: "Hello world!", createdAt: new Date() })
 # meteor run android
 ```
 
+#### https://www.meteor.com/tutorials/react/adding-user-accounts
+```
+# meteor add accounts-ui accounts-password
+```
+
 #### Finaly to run
 ```
 # meteor
