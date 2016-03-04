@@ -1,22 +1,23 @@
-# Nothing interesting.
-## https://www.meteor.com/tutorials/react/creating-an-app
+# Simple ToDos with React tutorial
+## Nothing interesting.
+### https://www.meteor.com/tutorials/react/creating-an-app
 
-###commands to issue in order to make this work:
+#### Commands to issue in order to make this work:
 
-#### To initialize:
+##### To initialize:
 ```
 # meteor create simple-todos-react
 # cd simple-todos-react
 # meteor add react
 ```
 
-#### https://www.meteor.com/tutorials/react/collections
+##### https://www.meteor.com/tutorials/react/collections
 ```
 # meteor mongo
 meteor.PRIMARY> db.tasks.insert({ text: "Hello world!", createdAt: new Date() });
 ```
 
-#### https://www.meteor.com/tutorials/react/running-on-mobile
+##### https://www.meteor.com/tutorials/react/running-on-mobile
 ```
 # meteor install-sdk ios
 # meteor add-platform ios
@@ -26,7 +27,7 @@ meteor.PRIMARY> db.tasks.insert({ text: "Hello world!", createdAt: new Date() })
 # meteor run android
 ```
 
-#### https://www.meteor.com/tutorials/react/adding-user-accounts
+##### https://www.meteor.com/tutorials/react/adding-user-accounts
 ```
 # meteor add accounts-ui accounts-password
 ```
@@ -35,7 +36,7 @@ meteor.PRIMARY> db.tasks.insert({ text: "Hello world!", createdAt: new Date() })
 # meteor remove insecure
 ```
 
-#### Finaly to run
+##### Finaly to run
 ```
 # meteor
 ```
