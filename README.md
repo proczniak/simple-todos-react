@@ -30,6 +30,10 @@ meteor.PRIMARY> db.tasks.insert({ text: "Hello world!", createdAt: new Date() })
 ```
 # meteor add accounts-ui accounts-password
 ```
+##### https://www.meteor.com/tutorials/react/security-with-methods
+```
+# meteor remove insecure
+```
 
 #### Finaly to run
 ```
